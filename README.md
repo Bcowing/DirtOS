@@ -4,10 +4,10 @@
  # How to Download
  This will be updated with instructions on how to download DirtOS for different use cases/operating systems.
  
- #How to Use
+ # How to Use
  This will be updated with instructions on how to deploy and use this software to help during an incident response scenario at your organization.
  
- #How to build a report using DirtOS
+ # How to build a report using DirtOS
  Instructions on how to build a report using dirt
  
  
