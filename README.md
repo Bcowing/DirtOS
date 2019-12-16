@@ -1,11 +1,11 @@
 # DirtOS
- DIRT is Datasure24's downloadable incident response toolkit. This toolkit can be used to help identify, mitigate, and report on many of the different cyber security incidents your organization may encounter in the future.
+ DirtOS is Datasure24's downloadable incident response toolkit. This toolkit can be used to help identify, mitigate, and report on many of the different cyber security incidents your organization may encounter in the future.
 
  # Download Instructions
  This will be updated with instructions on how to download DirtOS for different use cases/operating systems.
  
  # Included Tools
- Below are the tools included in dirtOS. This list is continuously being updated with new and improved tools to help with the investigation and reporting of the newest cyber security incidents. 
+ Below are the tools included in DirtOS. This list is continuously being updated with new and improved tools to help with the investigation and reporting of the newest cyber security incidents. 
  
  
 <b>SURICATA</b> – A high performance Network Intrusion Detection System (NIDS), Intrusion Prevention System (IPS), and Network Security Monitoring engine. Suricata inspects the network traffic using a powerful and extensive rules and signature language and has powerful Lua scripting support for detection of complex threats. Suricata implements a complete signature language to match on known threats, policy violations and malicious behavior. Suricata will also detect many anomalies in the traffic it inspects. Suricata can log HTTP requests, log and store TLS certificates, extract files from flows and store them to disk. The full PCAP capture support allows easy analysis. All this makes Suricata a powerful engine for your Network Security Monitoring (NSM).
@@ -37,7 +37,7 @@
 <b>NODEJS</b> - Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web-application development around a single programming language, rather than different languages for server- and client-side scripts.
  
  # Reporting Tutorial
- Instructions on how to build a report using dirt
+ Instructions on how to build a report using DirtOS
  
  
  
