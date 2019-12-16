@@ -5,7 +5,7 @@
  This will be updated with instructions on how to download DirtOS for different use cases/operating systems.
  
  # Included Tools
- Below are the tools included in dirtOS. This list is continuously being updated with tools to better help with 
+ Below are the tools included in dirtOS. This list is continuously being updated with new and improved tools to help with the investigation and reporting of the newest cyber security incidents. 
  
  
 <b>SURICATA</b> – A high performance Network Intrusion Detection System (NIDS), Intrusion Prevention System (IPS), and Network Security Monitoring engine. Suricata inspects the network traffic using a powerful and extensive rules and signature language and has powerful Lua scripting support for detection of complex threats. Suricata implements a complete signature language to match on known threats, policy violations and malicious behavior. Suricata will also detect many anomalies in the traffic it inspects. Suricata can log HTTP requests, log and store TLS certificates, extract files from flows and store them to disk. The full PCAP capture support allows easy analysis. All this makes Suricata a powerful engine for your Network Security Monitoring (NSM).
