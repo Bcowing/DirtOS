@@ -21,9 +21,9 @@
   - **A** : the IPv4 address of the domain.
   - **AAAA** : the domain&#39;s IPv6 address.
   - **CNAME** : the canonical name — allowing one domain name to map on to another. This allows more than one website to refer to a single web server.
-  - **MX**** :** the server that handles email for the domain.
-  - **NS**** :** one or more authoritative name server records for the domain.
-  - **TXT**** :** a record containing information for use outside the DNS server.
+  - **MX** : the server that handles email for the domain.
+  - **NS** : one or more authoritative name server records for the domain.
+  - **TXT** : a record containing information for use outside the DNS server.
 
 - **WHOIS** - Whois is a service that provides basic information about a registered domain, such as domain owner contact information, IP address block, domain availability status and the company with which the domain is registered. Whois is a query and response protocol that stores and delivers information related to the registered domain in a human-readable format.
 
