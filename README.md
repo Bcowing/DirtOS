@@ -17,10 +17,10 @@
   - -sW is a windowed scan that is like a TCP ACK scan, but it can see open and closed ports
 - **NSLOOKUP** - The NsLookup tool allows you to query DNS servers for resource records. NsLookup queries the specified DNS server and retrieves the requested records that are associated with the domain name you provided. NsLookup has two modes: interactive and non-interactive. Interactive mode allows the user to query name servers for information about various hosts and domains or to print a list of hosts in a domain. Non-interactive mode is used to print just the name and requested information for a host or domain.
 - **NSLOOKUP ** - Useful Commands:**
-  - **To use NsLookup enter the following:**** nslookup [domain]**
-  - **A**** :** the IPv4 address of the domain.
-  - **AAAA**** :** the domain&#39;s IPv6 address.
-  - **CNAME**** :** the canonical name — allowing one domain name to map on to another. This allows more than one website to refer to a single web server.
+  - **To use NsLookup enter the following:** nslookup [domain]
+  - **A** : the IPv4 address of the domain.
+  - **AAAA** : the domain&#39;s IPv6 address.
+  - **CNAME** : the canonical name — allowing one domain name to map on to another. This allows more than one website to refer to a single web server.
   - **MX**** :** the server that handles email for the domain.
   - **NS**** :** one or more authoritative name server records for the domain.
   - **TXT**** :** a record containing information for use outside the DNS server.
@@ -43,7 +43,7 @@ From a Whois search you can find the following information about an IP address o
 
 Program shows commands to run in cli to limit access or to log activity for users with specific commands that have authority. Can be used to see if a specific user is doing things that shouldn&#39;t be through tracking or can be used to test and see if certain commands are enabled and if they should be or not for security sake.
 
-- **LASTPASS - ** LastPass is a password manager that stores encrypted passwords online. A user&#39;s content in LastPass, including passwords and secure notes, is protected by one master password. The content is synchronized to any device the user uses the LastPass software or app extensions on. Information is encrypted with AES-256 encryption with PBKDF2 SHA-256, salted hashes, and the ability to increase password iterations value. Encryption and decryption take place at the device level.
+- **LASTPASS** - LastPass is a password manager that stores encrypted passwords online. A user&#39;s content in LastPass, including passwords and secure notes, is protected by one master password. The content is synchronized to any device the user uses the LastPass software or app extensions on. Information is encrypted with AES-256 encryption with PBKDF2 SHA-256, salted hashes, and the ability to increase password iterations value. Encryption and decryption take place at the device level.
 
 - **NETSTAT** Netstat is a very powerful tool that can be used to print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. It is a utility that displays network connections for Transmission Control Protocol, routing tables, and several network interface and network protocol statistics. It is used for finding problems in the network and to determine the amount of traffic on the network as a performance measurement. Netstat can be used to determine incidents such as DoS/DDoS and C&amp;C communications.
 - **NETSTAT – Useful Commands:**
@@ -58,9 +58,9 @@ Program shows commands to run in cli to limit access or to log activity for user
 - **NETSTAT &amp; NMAP Used Together for Incident Response**
   - Nmap and Netstat can be used together in an incident response scenario to gather information on whether an attacked is actively within an infected machine or network. Using Nmap a user can initiate a port scan on the machine in question. This scan will reveal open and closed ports on this device. After finding the open and closed ports, a user can then use Netstat to see all currently active connections on the machine. These connections are shown through port numbers.
 
-- **OSQUERY – ** OSquery is an operating system instrumentation framework for Windows, macOS, Linux, and FreeBSD. The tools make low-level operating system analytics and monitoring both performant and intuitive. The high-performance and low-footprint distributed host monitoring daemon, OSqueryd, allows you to schedule queries to be executed across your entire infrastructure. The daemon takes care of aggregating the query results over time and generates logs which indicate state changes in your infrastructure. You can use this to maintain insight into the security, performance, configuration, and state of your entire infrastructure. OSqueryd&#39;s logging can integrate into your internal log aggregation pipeline.
+- **OSQUERY** - OSquery is an operating system instrumentation framework for Windows, macOS, Linux, and FreeBSD. The tools make low-level operating system analytics and monitoring both performant and intuitive. The high-performance and low-footprint distributed host monitoring daemon, OSqueryd, allows you to schedule queries to be executed across your entire infrastructure. The daemon takes care of aggregating the query results over time and generates logs which indicate state changes in your infrastructure. You can use this to maintain insight into the security, performance, configuration, and state of your entire infrastructure. OSqueryd&#39;s logging can integrate into your internal log aggregation pipeline.
 
-- **IPTRAF - ** IPTraf is a network monitoring utility for IP networks. It intercepts packets on the network and gives out various pieces of information about the current IP traffic over it. IPTraf can be used to monitor the load on an IP network, the most used types of network services, the proceedings of TCP connections, and others. IPTraf is software-only and utilizes the built-in raw packet capture interface of the Linux kernel, allowing it to be used with a wide range of Ethernet cards, supported FDDI adapters, supported ISDN adapters, and any asynchronous SLIP/PPP interface. No special hardware is required.
+- **IPTRAF** - IPTraf is a network monitoring utility for IP networks. It intercepts packets on the network and gives out various pieces of information about the current IP traffic over it. IPTraf can be used to monitor the load on an IP network, the most used types of network services, the proceedings of TCP connections, and others. IPTraf is software-only and utilizes the built-in raw packet capture interface of the Linux kernel, allowing it to be used with a wide range of Ethernet cards, supported FDDI adapters, supported ISDN adapters, and any asynchronous SLIP/PPP interface. No special hardware is required.
 - **How to Use IPTRAF:**
   - Typing iptraf-ng into the cli will launch the iptraf interface, once launched you will be able to select &quot;IP Traffic Monitor&quot;. Here you will see all IP traffic to and from the IP of your machine
     - You may select one of three interfaces or view them all. Lo, ens192 or en224.
@@ -83,14 +83,14 @@ Program shows commands to run in cli to limit access or to log activity for user
   - -L _filename_
     - Allows you to specify an alternate log file name when the -B parameter is used. Otherwise the default log file name will be used. If an absolute path is not specified, the log file will be created in the default log file directory
 
-- **NTOPNG – ** A passive network monitoring tool focused on flows and statistics that can be obtained from the traffic captured by the server. NTOPNG centers and has been developed around some basic concepts that include network interfaces and hosts. It can generate alerts to report the occurrence of events and user-configurable thresholds.
+- **NTOPNG** - A passive network monitoring tool focused on flows and statistics that can be obtained from the traffic captured by the server. NTOPNG centers and has been developed around some basic concepts that include network interfaces and hosts. It can generate alerts to report the occurrence of events and user-configurable thresholds.
 - **How to use NTOPNG:**
 
 To use Ntopng you must access it via port 3050 within a browser. Upon coming to the login page, you must have an account made to login with. Once logged in Ntopng offers detailed graphs that display information about a network and the hosts on that network. Once you are in the webpage GUI, you will be presented with information about the &quot;Top Flow Talkers&quot; or the assets using the most bandwidth. You can double click on these &#39;talkers&#39; to view detailed information about the active flows for that asset. Some information that can be found here: The application being used, the OSI Layer 4 protocol, the client name &amp; port, the server, a breakdown between the client and server, total bytes of data and additional information.
 
 If you select &#39;Hosts&#39;, you will view a pie graph with the &quot;top hosts&quot; that have sent and received connection from the machine this program is installed on. Additionally, you can click on the host IP address, and this will take you to a page that displays more detailed information about that host. This includes the OS of the device connected, the sent and received traffic broken down, the MAC address of the device, etc. You can also view the ports that this device connects via, the protocols that the device uses to connect, the packets sent back and forth, etc.
 
-- **OPENVAS – ** OpenVAS is a full-featured vulnerability scanner. Its capabilities include unauthenticated testing, authenticated testing, various high level and low-level Internet and industrial protocols, performance tuning for large-scale scans and a powerful internal programming language to implement any type of vulnerability test. The scanner is accompanied by a vulnerability tests feed with a long history and daily updates. This Greenbone Community Feed includes more than 50,000 vulnerability tests.
+- **OPENVAS** - OpenVAS is a full-featured vulnerability scanner. Its capabilities include unauthenticated testing, authenticated testing, various high level and low-level Internet and industrial protocols, performance tuning for large-scale scans and a powerful internal programming language to implement any type of vulnerability test. The scanner is accompanied by a vulnerability tests feed with a long history and daily updates. This Greenbone Community Feed includes more than 50,000 vulnerability tests.
 
 OpenVAS offers a multitude of services such as:
 
@@ -100,7 +100,7 @@ OpenVAS offers a multitude of services such as:
     - In incident response, it is important to investigate the vulnerabilities to determine where an intruder may have gotten in from. This information can be used to patch vulnerabilities on the system to prevent future incidents.
     - OpenVAS can be used to scan for vulnerabilities that may be present so they can be remediated before an incident occurs.
 
-- **WIRESHARK/TSHARK – ** Wireshark is the world&#39;s most foremost and widely-used network packet analyzer. It is a free and open-source packet analyzer. A network packet analyzer presents captured packet data in as much detail as possible. Wireshark can capture traffic from many different network media types, including Ethernet, Wireless LAN, Bluetooth, USB, and more.
+- **WIRESHARK/TSHARK** - Wireshark is the world&#39;s most foremost and widely-used network packet analyzer. It is a free and open-source packet analyzer. A network packet analyzer presents captured packet data in as much detail as possible. Wireshark can capture traffic from many different network media types, including Ethernet, Wireless LAN, Bluetooth, USB, and more.
 
 Tshark allows for a live capture of network traffic in the CLI. The capture can be used for incident response to determine where connections are being established from and where data is being sent too.
 
@@ -110,7 +110,7 @@ In the CLI you can just run sudo tshark to begin capturing live traffic on your 
 
 You can filter by protocol by entering tshark [name of protocol] For a full list of protocols enter tshark -G protocols
 
-- **NODEJS - **** Node.js** is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user&#39;s web browser. Consequently, Node.js represents a &quot;JavaScript everywhere&quot; paradigm, unifying web-application development around a single programming language, rather than different languages for server- and client-side scripts.
+- **NODEJS** - is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user&#39;s web browser. Consequently, Node.js represents a &quot;JavaScript everywhere&quot; paradigm, unifying web-application development around a single programming language, rather than different languages for server- and client-side scripts.
 
 **Malware**
 
